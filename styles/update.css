@@ -1,0 +1,141 @@
+section.update {
+    height: 60rem;
+    width: 100%;
+    background: #FEFCFB;
+    text-align: center;
+}
+
+section.update h1 {
+    font: normal 700 4.8rem 'Volkhov';
+    padding: 5rem;
+}
+
+section.update strong {
+    color: #FA7436;
+}
+
+section.update .cards-update {
+    height: 35rem;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+section.update .cards-update .cards-superiors {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+section.update .cards-update .cards-inferiors {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+section.update .cards-update .card {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 52px rgba(102, 102, 102, 0.1);
+    border-radius: 8px;
+}
+
+section.update .cards-update .card img {
+    height: 75%;
+    width: 100%;
+    margin: 0;
+}
+
+section.update .cards-update .card h4 {
+    font: normal 500 1.8rem/2rem 'Poppins';
+    padding-right: 2.5rem;
+}
+
+section.update .cards-update .card p {
+    font: normal 400 1.2rem 'Inter';
+    color: #999999;
+}
+
+
+
+@media (max-width: 1100px) {
+    section.update {
+        height: 100rem;
+    }
+
+    section.update .cards-update {
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60rem;
+    }
+
+    section.update .cards-update .cards-superiors {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    section.update .cards-update .cards-inferiors {
+        height: 50%;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    section.update .cards-update .card {
+        height: 90%;
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    section.update {
+        height: 140rem;
+    }
+
+    section.update h1 {
+        font-size: 3rem;
+    }
+
+    section.update .cards-update {
+        align-items: center;
+        height: 120rem;
+    }
+
+    section.update .cards-update .cards-superiors {
+        flex-direction: column;
+        height: 50%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    section.update .cards-update .cards-inferiors {
+        flex-direction: column;
+        height: 50%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    section.update .cards-update .card {
+        height: 45%;
+        width: 50%;
+    }
+}
+
+@media (max-width: 600px) {
+    section.update .cards-update .card{
+        width: 70%;
+    }   
+}

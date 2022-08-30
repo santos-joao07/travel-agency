@@ -1,0 +1,199 @@
+section.home .home-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 2rem auto;
+    height: 52rem;
+    width: 75%;
+}
+
+section.home .home-container .content-left {
+    width: 50%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+section.home .home-container .content-left h1 {
+    font: normal 700 6.4rem/7rem 'Volkhov';
+}
+
+section.home .home-container .content-left h1 strong {
+    color: #FA7436;
+}
+
+section.home .home-container .content-left p {
+    font: normal 400 2.4rem/4rem 'Poppins';
+    margin: 3rem 0 5.4rem;
+    color: #666666
+}
+
+
+section.home .home-container .content-left .button-discover {
+    font: normal 500 1.8rem 'Poppins';
+    color: #FA7436;
+    width: 17.8rem;
+    height: 6rem;
+    background: #FFFFFF;
+    border: 0.1rem solid #FA7436;
+    border-radius: 0.5rem;
+}
+
+section.home .home-container .content-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+}
+
+section.home .home-container .content-right .tourist {
+    width: 40rem;
+    height: 48rem;
+    position: absolute;
+}
+
+
+section.home .home-container .content-right .plane {
+    width: 120%;
+    height: 30rem;
+    left: 0.05rem;
+    position: absolute;
+    margin-bottom: 30rem;
+}
+
+section.home .explore {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 55%;
+    height: 12.4rem;
+    margin: 5.6rem auto;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 40px 2px rgba(0, 0, 0, 0.06);
+    border-radius: 1rem;
+}
+
+
+section.home .explore .select-explore select {
+    border: none;
+    font: normal 500 1.6rem/2.4rem 'Poppins';
+    margin: 0.5rem;
+    color: #222222;
+}
+
+section.home .explore .select-explore .text-explore {
+    font: normal 400 1.2rem/1.8rem 'Poppins';
+    color: #666666;
+}
+
+section.home .explore .button-explore {
+    width: 16.5rem;
+    height: 6rem;
+    border: none;
+    font: normal 500 1.8rem 'Poppins';
+    color: #FFFFFF;
+    background: #FA7436;
+    box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.16);
+    border-radius: 0.5rem;
+}
+
+
+@media (max-width: 2560px) {
+    section.home .home-container .content-right {
+        align-items: center;
+    }
+
+    section.home .home-container .content-right .plane {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+    section.home .home-container .content-left h1 {
+        font-size: 4.4rem;
+    }
+
+    section.home .home-container .content-left p {
+        font-size: 1.8rem;
+    }
+
+    section.home .home-container .content-right .tourist {
+        width: 35rem;
+        height: 45rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section.home .home-container .content-left h1 {
+        font-size: 3.8rem;
+    }
+
+    section.home .home-container .content-left p {
+        font-size: 1.6rem;
+    }
+
+    section.home .home-container .content-right .tourist {
+        width: 30rem;
+        height: 40rem;
+    }
+
+    section.home .home-container .content-right .plane {
+        margin-bottom: 25rem;
+    }
+
+    section.home .explore .button-explore {
+        width: 13rem;
+        height: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.home .home-container {
+        height: 38rem;
+    }
+
+    section.home .home-container .content-left {
+        width: 100%;
+        height: 100%;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    section.home .home-container .content-right {
+        display: none
+    }
+}
+
+@media (max-width: 600px) {
+    section.home .home-container .content-left h1 {
+        font-size: 3.4rem;
+        line-height: 5rem;
+    }
+
+    section.home .home-container .content-left p {
+        font-size: 1.4rem;
+        line-height: 3rem;
+    }
+
+    section.home .home-container .content-left .button-discover {
+        width: 15rem;
+        height: 5rem;
+    }
+
+    section.home .explore {
+        width: 75%;
+        margin: 1rem auto;
+    }
+
+    section.home .explore .button-explore {
+        width: 8rem;
+        height: 5rem;
+    }
+}
+

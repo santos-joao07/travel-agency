@@ -1,0 +1,147 @@
+section.things-of-travel {
+    width: 100%;
+    height: 64rem;
+    background: #F7F8FC;
+    text-align: center;
+    position: relative;
+}
+
+section.things-of-travel .double-plane {
+    position: absolute;
+    left: 75%;
+    top: 10rem;
+    width: 20rem;
+    height: 12rem;
+}
+
+section.things-of-travel .text-things {
+    width: 75%;
+    margin: 0 auto 4rem;
+}
+
+section.things-of-travel .text-things h1 {
+    font: normal 700 4.8rem/5.4rem 'Volkhov';
+    color: #222222;
+    padding: 8rem 0 2rem;
+}
+
+section.things-of-travel .text-things strong {
+    color: #FA7436;
+}
+
+section.things-of-travel .text-things p {
+    font: normal 400 1.8rem/3.2rem 'Poppins';
+    color: #666666;
+    padding: 0 3rem;
+}
+
+section.things-of-travel .cards-things {
+    height: 28rem;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+section.things-of-travel .cards-things .card {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 14px 24px 72px rgba(102, 102, 102, 0.1);
+    border-radius: 8px;
+}
+
+section.things-of-travel .cards-things .card .icon {
+    height: 4.8rem;
+    width: 4.8rem;
+    margin: 1rem 0 0 4rem;
+    z-index: 2;
+}
+
+section.things-of-travel .cards-things .card .line {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+section.things-of-travel .cards-things .card h4 {
+    font: normal 600 2rem 'Poppins';
+    color: #222222;
+    margin: 2.5rem 0 0 4rem;
+    z-index: 2;
+}
+
+section.things-of-travel .cards-things .card p {
+    font: normal 400 1.6rem/2.6rem 'Poppins';
+    color: #666666;
+    z-index: 2;
+}
+
+@media (max-width: 1100px) {
+    section.things-of-travel .double-plane {
+        left: 74%;
+        width: 17rem;
+        height: 10rem;
+    }
+
+    section.things-of-travel .text-things h1 {
+        font-size: 4rem
+    }
+
+    section.things-of-travel .text-things p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section.things-of-travel {
+        height: 110rem;
+    }
+
+    section.things-of-travel .double-plane {
+        left: 72%;
+        width: 17rem;
+        height: 10rem;
+    }
+
+    section.things-of-travel .cards-things {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70rem;
+    }
+
+    section.things-of-travel .cards-things .card {
+        height: 30%;
+        width: 40%;
+    }
+
+    section.things-of-travel .cards-things .card h4 {
+        margin: 2.5rem 0 0 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.things-of-travel .double-plane {
+        display:none;
+    }
+
+    section.things-of-travel .cards-things .card p{
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    section.things-of-travel .cards-things .card{
+        width: 60%;
+    }   
+}

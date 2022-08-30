@@ -1,0 +1,231 @@
+section.vacation {
+    width: 100%;
+    height: 75rem;
+    background: #FEFCFB;
+    text-align: center;
+    position: relative;
+}
+
+section.vacation .coconut {
+    position: absolute;
+    left: 70%;
+    top: 8rem;
+    width: 12rem;
+    height: 10rem;
+}
+
+
+section.vacation .text-vacation {
+    width: 45rem;
+    margin: 0 auto 4rem;
+}
+
+section.vacation .text-vacation h1 {
+    font: normal 700 4.8rem 'Volkhov';
+    padding: 8rem 0 2rem;
+}
+
+section.vacation .text-vacation strong {
+    color: #FA7436;
+}
+
+section.vacation .text-vacation p {
+    font: normal 400 1.8rem/3.2rem 'Poppins';
+    color: #666666;
+}
+
+section.vacation .buttons-vacation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 10%;
+    margin: 2rem 78%;
+}
+
+section.vacation .cards-vacation {
+    height: 30rem;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+section.vacation .cards-vacation .card {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 4px 4px 25px rgba(102, 102, 102, 0.1);
+    border-radius: 8px;
+}
+
+section.vacation .cards-vacation .card img {
+    height: 75%;
+    width: 100%;
+    margin: 0;
+}
+
+section.vacation .cards-vacation .card .avaliation {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 2.6rem;
+    margin: 1rem auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.vacation .cards-vacation .card .avaliation div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+}
+
+section.vacation .cards-vacation .card .avaliation h4 {
+    font: normal 500 2rem 'Poppins'
+}
+
+section.vacation .cards-vacation .card .avaliation p {
+    font: normal 400 1.6rem 'Poppins';
+    color: #666666;
+}
+
+section.vacation .cards-vacation .card .detail {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 2.6rem;
+    margin: 0 auto 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.vacation .cards-vacation .card .detail div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+}
+
+section.vacation .cards-vacation .card .detail div img {
+    height: 1.6rem;
+    width: 1.2rem;
+}
+
+section.vacation .cards-vacation .card .detail div h5 {
+    font: normal 400 1.2rem 'Poppins';
+    color: #666666;
+}
+
+section.vacation .cards-vacation .card .detail .description {
+    width: 20%;
+}
+
+section.vacation .cards-vacation .card .detail .description img {
+    width: 1.5em;
+    height: 1.5rem;
+}
+
+section.vacation .cards-vacation .card .detail .description p {
+    font: normal 400 1.6rem 'Poppins';
+    color: #666666;
+}
+
+
+@media (max-width: 1100px) {
+    section.vacation .coconut {
+        left: 74%;
+        width: 10rem;
+        height: 8rem;
+    }
+
+    section.vacation .text-vacation h1 {
+        font-size: 4rem
+    }
+
+    section.vacation .text-vacation p {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 992px) {
+    section.vacation {
+        height: 120rem;
+    }
+
+    section.vacation .coconut {
+        left: 72%;
+        width: 8rem;
+        height: 6rem;
+    }
+
+    section.vacation .cards-vacation {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70rem;
+    }
+
+    section.vacation .cards-vacation .card {
+        height: 30%;
+        width: 40%;
+    }
+
+    section.vacation .cards-vacation .card .avaliation h4 {
+        font-size: 1.5rem;
+    }
+
+    section.vacation .cards-vacation .card .avaliation p {
+        font-size: 1.4rem;
+    }
+
+    section.vacation .cards-vacation .card .detail div h5 {
+        font-size: 1rem;
+    }
+
+    section.vacation .cards-vacation .card .detail .description {
+        width: 25%;
+    }
+
+    section.vacation .cards-vacation .card .detail .description p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    section.vacation .coconut {
+        display: none
+    }
+
+    section.vacation .text-vacation {
+        width: 75%;
+     }
+
+     section.vacation .text-vacation h1 {
+        font-size: 3.5rem
+    }
+
+    section.vacation .buttons-vacation {
+        margin: 2rem 55%
+    }
+
+    section.vacation .cards-vacation .card .avaliation p {
+        font-size: 1.2rem;
+    }
+
+    section.vacation .cards-vacation .card .detail div {
+        width: 45%; 
+    }
+}
+
+@media (max-width: 600px) {
+    section.vacation .cards-vacation .card {
+        width: 70%;
+    }
+}

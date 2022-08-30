@@ -1,0 +1,132 @@
+section.subscribe {
+    width: 100%;
+    height: 50rem;
+    background: #FEFCFB;
+    display: flex;
+    align-items: center;
+}
+
+section.subscribe .subscribe-container {
+    width: 75%;
+    height: 70%;
+    background-color: #FA7436;
+    border-radius: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    position: relative
+}
+
+
+
+section.subscribe .subscribe-container h1 {
+    font: normal 700 4.8rem/6.2rem 'Volkhov';
+    color: #FFFFFF;
+    padding: 4rem 20rem;
+}
+
+section.subscribe .subscribe-container .input-subscribe {
+    width: 60%;
+    height: 6.8rem;
+    border-radius: 1rem;
+    left: 20%;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 2;
+}
+
+section.subscribe .subscribe-container .input-subscribe div {
+    display: flex;
+    align-items: center;
+    width: 47%;
+    height: 100%;
+}
+
+section.subscribe .subscribe-container .input-subscribe .input-email img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+section.subscribe .subscribe-container .input-subscribe .button-email {
+    justify-content: flex-end;
+}
+
+section.subscribe .subscribe-container .input-subscribe div input {
+    border: none;
+}
+
+section.subscribe .subscribe-container .input-subscribe div input::placeholder {
+    font: normal 400 1.6rem 'Poppins';
+    color: #999999;
+}
+
+section.subscribe .subscribe-container .input-subscribe div button {
+    width: 50%;
+    height: 85%;
+    border: none;
+    background: #FA7436;
+    border-radius: 0.8rem;
+    color: #FFFFFF;
+    font: normal 400 1.6rem 'Poppins'
+}
+
+section.subscribe .subscribe-container .elipse {
+    width: 30rem;
+    height: 30rem;
+    position: absolute;
+    z-index: 1;
+    left: 0%;
+    bottom: 0%;
+}
+
+section.subscribe .subscribe-container .coconut {
+    width: 10rem;
+    height: 10rem;
+    position: absolute;
+    z-index: 1;
+    right: 0%;
+    top: 0%;
+}
+
+@media (max-width: 1100px) {
+    section.subscribe .subscribe-container h1 {
+        font-size: 3.8rem;
+        padding: 4rem 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    section.subscribe .subscribe-container {
+        width: 80%;
+        height: 50%;
+    }
+
+    section.subscribe .subscribe-container h1 {
+        font-size: 2rem;
+        line-height: 4rem;
+        padding: 4rem 4rem;
+    }
+
+    section.subscribe .subscribe-container .input-subscribe {
+        width: 90%;
+        height: 4.8rem;
+        left: 5%;
+    }
+
+    section.subscribe .subscribe-container .input-subscribe div button {
+        font-size: 1.4rem;
+    }
+
+    section.subscribe .subscribe-container .elipse {
+        width: 14rem;
+        height: 14rem;
+    }
+
+    section.subscribe .subscribe-container .coconut {
+        width: 7rem;
+        height: 7rem;
+    }
+}

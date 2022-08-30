@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #FEFCFB;
+}
+
+header {
+    height: 8rem;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header nav h2 {
+    font-size: 2.4rem;
+    display: inline;
+}
+
+header nav figure {
+    display: inline;
+}
+
+header nav .navigation-bar {
+    word-spacing: 2rem;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header nav .navigation-bar a {
+    font: normal 400 1.6rem 'Poppins';
+    color: #222222;
+    text-decoration: none;
+}
+
+header nav .navigation-bar a#login {
+    color: #FD8D3A
+}
+
+header nav .navigation-bar button {
+    height: 3.2rem;
+    width: 10.2rem;
+    background: #FA7436;
+    border: none;
+    box-shadow: 0px 8px 16px rgba(250, 116, 54, 0.24);
+    border-radius: 5px;
+    color: #FFF;
+}
+
+@media (max-width: 1200px) {
+    header nav .navigation-bar {
+        width: 70%;
+    }
+}
+
+@media (max-width: 992px) {
+    header nav .navigation-bar {
+        width: 70%;
+        word-spacing: 1rem;
+    }
+
+    header nav .navigation-bar a {
+        font-size: 1.4rem;
+    }
+
+    header nav .navigation-bar button {
+        height: 3rem;
+        width: 10rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav .navigation-bar {
+        word-spacing: 0.4rem;
+    }
+
+    header nav .navigation-bar a {
+        font-size: 1.2rem;
+    }
+
+    header nav .navigation-bar button {
+        height: 2rem;
+        width: 8rem;
+    }
+}
+
+@media (max-width: 600px) {
+    header nav .navigation-bar {
+        width: 90%;
+        word-spacing: 0.5rem;
+    }
+
+    header nav .navigation-bar a {
+        font-size: 1rem;
+    }
+
+    header nav h2 {
+        font-size: 1.3rem;
+    }
+
+    header nav .navigation-bar button {
+        height: 1.5rem;
+        width: 4rem;
+        font-size: 1rem;
+    }
+
+    
+}
